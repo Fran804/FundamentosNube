@@ -4,9 +4,9 @@
 La carpeta se llama **db** y pertenece al proyecto creado en clase de la base de datos. La carpeta db consta de 3 carpetas: conf, files, log. Y un archivo: docker-compose.yml
 El archivo "docker-compose.yml" contiene **19 lineas de codigo** especificadas de la siguiente forma:
 1. Específica la version del docker a utilizar, en este caso la: **3.1**
-2. _Linea en blanco para estética del codigo
+2. _Linea en blanco para estética del codigo_
 3. Definición de servicios
-4. _Linea en blanco para estética del codigo
+4. _Linea en blanco para estética del codigo_
 5. Nombre del servicio, en este caso se le coloco: **mydatabase**
 6. Imagen a utilizar, en este caso como queremos una base de datos en mariadb, la imagen del contenedor se llama: **mariadb**
 7. Mantiene el estatus del reseteo de manera activa para su utilización en cualquier momento
@@ -21,13 +21,13 @@ El archivo "docker-compose.yml" contiene **19 lineas de codigo** especificadas d
 16. Asignación de la carpeta files para las librerias de mysql
 17. Asignación de la carpeta logs para los registros de actividad de mysql
 18. Asignación de la carpeta conf para las configuracions de mysql
-19. _Linea en blanco para estética del codigo
+19. _Linea en blanco para estética del codigo_
 
 #### **Carpeta 2**: 
 La carpeta se llama **web** y pertenece al proyecto creado en clase de la pagina web. La carpeta web contiene 1 carpeta: appcode y 1 archivo: docker-compose.yml
 El archivo "docker-compose.yml" contiene **13 lineas de codigo** especificadas de la siguiente forma:
 1. Específica la version del docker a utilizar, en este caso la: **3.1**
-2. _Linea en blanco para estética del codigo
+2. _Linea en blanco para estética del codigo_
 3. Definición de servicios
 4. Nombre del servicio, en este caso se le coloco: **measurementapp**
 5. Imagen a utilizar, en este caso como queremos una pagina web en php, la imagen del contenedor se llama: **webdevops/php-apache** en la versión: 7.4
@@ -38,13 +38,13 @@ El archivo "docker-compose.yml" contiene **13 lineas de codigo** especificadas d
 10. Asignación de los puertos **82:80** para conectar la base de datos
 11. Definición de los volumenes/directorios a utilizar en donde residue la información
 12. Asignación de la carpeta appcode
-13. _Linea en blanco para estética del codigo
+13. _Linea en blanco para estética del codigo_
 
 #### **Carpeta 3**: 
 La carpeta se llama **web2** y pertenece al proyecto creado en clase de la pagina web, a diferencia de la carpeta "web" esta se creo con el fin de mostrar una segunda version. La carpeta web2 contiene 1 carpeta: appcode y 1 archivo: docker-compose.yml
 El archivo "docker-compose.yml" contiene **11 lineas de codigo** especificadas de la siguiente forma:
 1. Específica la version del docker a utilizar, en este caso la: **3.1**
-2. _Linea en blanco para estética del codigo
+2. _Linea en blanco para estética del codigo_
 3. Definición de servicios
 4. Nombre del servicio, en este caso se le coloco: **measurementapp**
 5. Imagen a utilizar, en este caso como queremos una pagina web en php, la imagen del contenedor se llama: **webdevops/php-nginx** en la versión: 7.4
@@ -53,4 +53,4 @@ El archivo "docker-compose.yml" contiene **11 lineas de codigo** especificadas d
 8. Asignación de los puertos **83:80** para conectar la base de datos
 9. Definición de los volumenes/directorios a utilizar en donde residue la información
 10. Asignación de la carpeta appcode
-11. _Linea en blanco para estética del codigo
+11. _Linea en blanco para estética del codigo_
