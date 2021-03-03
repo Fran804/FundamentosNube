@@ -2,6 +2,7 @@
 ### Parcial 1 - Francisco Iván Pérez Villalobos
 #### **Carpeta 1**:
 La carpeta se llama **db** y pertenece al proyecto creado en clase de la base de datos. La carpeta db consta de 3 carpetas: conf, files, log. Y un archivo: docker-compose.yml
+
 El archivo "docker-compose.yml" contiene **19 lineas de codigo** especificadas de la siguiente forma:
 1. Específica la version del docker a utilizar, en este caso la: **3.1**
 2. _Linea en blanco para estética del codigo_
@@ -25,6 +26,7 @@ El archivo "docker-compose.yml" contiene **19 lineas de codigo** especificadas d
 
 #### **Carpeta 2**: 
 La carpeta se llama **web** y pertenece al proyecto creado en clase de la pagina web. La carpeta web contiene 1 carpeta: appcode y 1 archivo: docker-compose.yml
+
 El archivo "docker-compose.yml" contiene **13 lineas de codigo** especificadas de la siguiente forma:
 1. Específica la version del docker a utilizar, en este caso la: **3.1**
 2. _Linea en blanco para estética del codigo_
@@ -42,6 +44,7 @@ El archivo "docker-compose.yml" contiene **13 lineas de codigo** especificadas d
 
 #### **Carpeta 3**: 
 La carpeta se llama **web2** y pertenece al proyecto creado en clase de la pagina web, a diferencia de la carpeta "web" esta se creo con el fin de mostrar una segunda version. La carpeta web2 contiene 1 carpeta: appcode y 1 archivo: docker-compose.yml
+
 El archivo "docker-compose.yml" contiene **11 lineas de codigo** especificadas de la siguiente forma:
 1. Específica la version del docker a utilizar, en este caso la: **3.1**
 2. _Linea en blanco para estética del codigo_
